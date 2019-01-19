@@ -14,7 +14,6 @@ const (
 	AbsoluteZeroK Kelvin  = 0
 	FreezingK     Kelvin  = 273
 	BoilingK      Kelvin  = 373
-	KelvinConst   float64 = 273.15
 )
 
 func (c Celsius) String() string    { return fmt.Sprintf("%gC", c) }
